@@ -15,16 +15,14 @@ import 'package:syncfusion_flutter_xlsio/xlsio.dart' as xcl;
 import 'package:path_provider/path_provider.dart';
 
 
-void main() => runApp(const FlutterWifiIoT());
-
-class FlutterWifiIoT extends StatefulWidget {
-  const FlutterWifiIoT({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  _FlutterWifiIoTState createState() => _FlutterWifiIoTState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _FlutterWifiIoTState extends State<FlutterWifiIoT> {
+class _HomeScreenState extends State<HomeScreen> {
   String outputLabel = "N/A";
 
   Timer? t;
